@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.gnomeplanetariumextension"
+          path="/org/gnome/shell/extensions/gnomeorrery/">
+
+    <key name="latitude" type="d">
+      <default>91.0</default>
+      <summary>Latitude</summary>
+      <description>Geographic latitude in decimal degrees (-90 to 90). A value of 91.0 indicates the coordinate has not been configured.</description>
+    </key>
+
+    <key name="longitude" type="d">
+      <default>181.0</default>
+      <summary>Longitude</summary>
+      <description>Geographic longitude in decimal degrees (-180 to 180). A value of 181.0 indicates the coordinate has not been configured.</description>
+    </key>
+
+    <key name="refresh-interval" type="i">
+      <default>60</default>
+      <summary>Refresh interval</summary>
+      <description>How often the planetary positions are recalculated, in seconds.</description>
+      <range min="10" max="600"/>
+    </key>
+
+  </schema>
+</schemalist>

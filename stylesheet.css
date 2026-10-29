@@ -1,0 +1,240 @@
+/* Gnome Planetarium Extension — GNOME Shell Extension Stylesheet */
+
+/* Panel icon container */
+.gnomeplanetariumextension-panel-icon {
+    margin: 0 2px;
+}
+
+/* Popup orrery diagram canvas */
+.gnomeplanetariumextension-orrery-diagram {
+    margin: 0;
+    border-radius: 8px;
+    width: 290px;
+    height: 240px;
+}
+
+/* Info rows container */
+.gnomeplanetariumextension-info-box {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 10px 14px;
+    margin: 4px 0px 6px 0px;
+    spacing: 5px;
+    width: 260px;
+    max-width: 260px;
+    min-width: 260px;
+}
+
+.gnomeplanetariumextension-info-row {
+    spacing: 8px;
+}
+
+.gnomeplanetariumextension-info-label {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.gnomeplanetariumextension-info-value {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+/* Status label shown when coordinates are unconfigured */
+.gnomeplanetariumextension-status-label {
+    font-size: 14px;
+    color: #e8a44a;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+/* Planets visible status card */
+.gnomeplanetariumextension-visible-badge {
+    width: 232px;
+    max-width: 232px;
+    background-color: transparent;
+    border: none;
+    padding: 0px 0px 6px 0px;
+    margin: 0px 0px 4px 0px;
+    spacing: 0px;
+}
+
+.gnomeplanetariumextension-badge-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 232px;
+    max-width: 232px;
+}
+
+.gnomeplanetariumextension-play-button {
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #e2e8f0;
+}
+
+.gnomeplanetariumextension-play-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Guide / Glossary Section */
+.gnomeastro-guide-box {
+    padding: 6px 12px 8px 12px;
+    spacing: 6px;
+}
+
+.gnomeastro-guide-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+.gnomeastro-guide-text {
+    font-size: 12px;
+    color: #c8cdd3;
+    margin-bottom: 6px;
+}
+
+.gnomeastro-glossary-item {
+    spacing: 2px;
+    margin-top: 6px;
+}
+
+.gnomeastro-glossary-term {
+    font-size: 12px;
+    font-weight: bold;
+    color: #9da4b0;
+}
+
+/* Footer circular icon buttons (GNOME Quick Settings style) */
+.gnomeastro-footer-row {
+    padding: 4px 12px;
+    spacing: 10px;
+}
+
+.gnomeastro-footer-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #e2e8f0;
+}
+
+.gnomeastro-footer-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.gnomeastro-footer-btn:active {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+}
+
+.gnomeastro-tooltip,
+.gnomeastro-tooltip.dark-mode {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.gnomeastro-tooltip.light-mode {
+    background-color: #ffffff;
+    color: #2e3436;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Dark Mode Explicit Rules (GNOME Shell Official Dark Palette) */
+.dark-mode .gnomeplanetariumextension-info-box {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.dark-mode .gnomeplanetariumextension-info-label,
+.dark-mode .gnomeplanetariumextension-badge-header,
+.dark-mode .gnomeastro-guide-title {
+    color: #ffffff;
+}
+
+.dark-mode .gnomeplanetariumextension-info-value {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.dark-mode .gnomeastro-guide-text {
+    color: #c8cdd3;
+}
+
+.dark-mode .gnomeastro-glossary-term {
+    color: #9da4b0;
+}
+
+.dark-mode .gnomeplanetariumextension-play-button,
+.dark-mode .gnomeastro-footer-btn {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+}
+
+.dark-mode .gnomeplanetariumextension-play-button:hover,
+.dark-mode .gnomeastro-footer-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+/* Light Mode Explicit Rules (GNOME Shell Official Light Palette: #2e3436 & #5c616c) */
+.light-mode .popup-menu-content,
+.popup-menu-content.light-mode {
+    border: 1px solid #dedede !important;
+}
+
+.light-mode .gnomeplanetariumextension-info-box {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.light-mode .gnomeplanetariumextension-info-label,
+.light-mode .gnomeplanetariumextension-badge-header,
+.light-mode .gnomeastro-guide-title {
+    color: #2e3436;
+}
+
+.light-mode .gnomeplanetariumextension-info-value,
+.light-mode .gnomeastro-guide-text {
+    color: #5c616c;
+}
+
+.light-mode .gnomeastro-glossary-term {
+    color: #5c616c;
+}
+
+.light-mode .gnomeplanetariumextension-status-label {
+    color: #c06000;
+}
+
+.light-mode .gnomeplanetariumextension-play-button,
+.light-mode .gnomeastro-footer-btn {
+    background-color: rgba(0, 0, 0, 0.06);
+    color: #2e3436;
+}
+
+.light-mode .gnomeplanetariumextension-play-button:hover,
+.light-mode .gnomeastro-footer-btn:hover {
+    background-color: rgba(0, 0, 0, 0.12);
+    color: #000000;
+}
+
+.light-mode .gnomeastro-tooltip {
+    background-color: #ffffff;
+    color: #2e3436;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}

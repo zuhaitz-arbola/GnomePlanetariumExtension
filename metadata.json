@@ -1,0 +1,16 @@
+{
+    "uuid": "gnomeplanetariumextension@aiurri.xyz",
+    "name": "Gnome Planetarium Extension",
+    "description": "Real-time calculation and representation of the solar system and associated astronomical data",
+    "shell-version": [
+        "46",
+        "47",
+        "48",
+        "49",
+        "50"
+    ],
+    "version": 1,
+    "settings-schema": "org.gnome.shell.extensions.gnomeplanetariumextension",
+    "gettext-domain": "gnomeplanetariumextension",
+    "url": "https://github.com/zuhaitz-arbola/GnomePlanetariumExtension"
+}
